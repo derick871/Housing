@@ -6,9 +6,8 @@ body {
     color: #333;
 }
 
-/* Header & Flex Navbar */
 header {
-    background-color: #333; /* Gray background */
+    background-color: #333; 
     color: white;
     padding: 1rem 0;
     position: sticky;
@@ -57,10 +56,10 @@ main {
 }
 
 h1 { margin: 0; font-size: 1.5rem; }
-h2 { color: #e63946; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+h2 { color: brown; border-bottom: 2px solid #eee; padding-bottom: 10px; }
 h3 { color: #555; }
 
-/* Table Styling */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -96,6 +95,6 @@ footer {
 }
 
 footer a {
-    color: #e63946;
+    color: blue;
     text-decoration: none;
 }
