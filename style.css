@@ -42,3 +42,48 @@ nav ul li a {
 nav ul li a:hover {
     color: blue;
 }
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1 { margin: 0; font-size: 1.5rem; }
+h2 { color: #e63946; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+h3 { color: #555; }
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
